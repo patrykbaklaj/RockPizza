@@ -14,7 +14,7 @@
 </head>
 <body ng-app="RockPizza" ng-controller="MainController">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +43,10 @@
       <div class="outer_container">
         <div class="container">
           <div class="intro_header d-flex flex-column justify-content-center align-items-center">
+            <div class="phone-intro text-center">
+              <h5 class="h5">Zamówienia</h5>
+              <h4 class="h4">777 888 222</h4>
+            </div>
             <h1 class="text-center display-1">Rock Pizza</h1>
             <p>Prawdopodobnie najlepsza pizza w mieście!</p>
             <a class="btn btn-dark">Zobacz menu</a>
@@ -197,8 +201,8 @@
         </div>
       </section>
 
-      <section id="about" class="pb-5">
-        <div class="outer_container pt-3">
+      <section id="about" class="">
+        <div class="outer_container pt-3 pb-5">
 
           <div class="container">
             <div class="mb-3">
@@ -294,8 +298,41 @@
         </div>
       </section>
 
+      <section id="contact" class="pt-5 pb-5">
+        <div class="container">
+
+          <h2 class="display-4 mb-5">Kontakt</h2>
+          <hr>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <h3 class="h3 text-center">Zamówienia</h3>
+              <h5 class="h5 text-center">Zamówienia przyjmujemy telefonicznie lub przez koszyk zakupowy.</h5>
+              <h5 class="h5 text-center">Tel: 777 666 222</h5>
+
+            </div>
+            <div class="col-md-6">
+              <h3 class="h3 text-center">Kontakt</h3>
+              <h5 class="h5 text-center">os. Na Miasteczku</h5>
+              <h5 class="h5 text-center">61-655 Poznań</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
     <footer>
+      <div id="footer" class="fixed-bottom">
+        <div class="container">
+          <div class="row pt-2 pb-2">
+            <div class="col">
+              Zamówienia: 777 666 222
+            </div>
+            <div class="col text-right">
+              Media społecznościowe
+            </div>
+          </div>
+        </div>
+      </nav>
     </footer>
 
 
