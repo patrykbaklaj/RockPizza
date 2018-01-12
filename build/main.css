@@ -102,3 +102,6 @@ table {
   #about .img-thumbnail {
     max-width: 100%;
     height: auto; }
+
+#contact .contact-input {
+  width: 100%; }
